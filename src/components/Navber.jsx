@@ -6,7 +6,7 @@ import { FaBars } from "react-icons/fa";
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 const Navber = () => {
-  let percentage = 90;
+  let percentage = 30;
   let [show , setshow] = useState(false)
   let fre = ()=>{
     setshow(!show)
@@ -52,7 +52,7 @@ const Navber = () => {
                 </Link>
               </li>
               <li>
-                <Link className='font-In text-[#9A9393] lg:text-lg md:text-base sm:text-sm text-xs font-normal transition-all duration-300 hover:text-[#13F3A7] hover:font-bold hover:border-b-2 border-[#13F3A7] pb-[2px]'>
+                <Link to="/Skills" className='font-In text-[#9A9393] lg:text-lg md:text-base sm:text-sm text-xs font-normal transition-all duration-300 hover:text-[#13F3A7] hover:font-bold hover:border-b-2 border-[#13F3A7] pb-[2px]'>
                   Skill
                 </Link>
               </li>
@@ -74,10 +74,6 @@ const Navber = () => {
             </ul>
             )
            }
-          <div className="w-10 h-10">
-          <CircularProgressbar value={percentage} text={`${percentage}%`} />;
-          </div>
-          <h1>Hello</h1>
         </Container>
     </nav>
   )
