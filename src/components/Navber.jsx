@@ -57,17 +57,17 @@ const Navber = () => {
                 </Link>
               </li>
               <li>
-                <Link className='font-In text-[#9A9393] lg:text-lg md:text-base sm:text-sm text-xs font-normal transition-all duration-300 hover:text-[#13F3A7] hover:font-bold hover:border-b-2 border-[#13F3A7] pb-[2px]'>
+                <Link to="/Projects" className='font-In text-[#9A9393] lg:text-lg md:text-base sm:text-sm text-xs font-normal transition-all duration-300 hover:text-[#13F3A7] hover:font-bold hover:border-b-2 border-[#13F3A7] pb-[2px]'>
                   Projects
                 </Link>
               </li>
               <li>
-                <Link className='font-In text-[#9A9393] lg:text-lg md:text-base sm:text-sm text-xs font-normal transition-all duration-300 hover:text-[#13F3A7] hover:font-bold hover:border-b-2 border-[#13F3A7] pb-[2px]'>
+                <Link to="/Certificates" className='font-In text-[#9A9393] lg:text-lg md:text-base sm:text-sm text-xs font-normal transition-all duration-300 hover:text-[#13F3A7] hover:font-bold hover:border-b-2 border-[#13F3A7] pb-[2px]'>
                   Certificates
                 </Link>
               </li>
               <li>
-                <Link className='font-In text-[#9A9393] lg:text-lg md:text-base sm:text-sm text-xs font-normal transition-all duration-300 hover:text-[#13F3A7] hover:font-bold hover:border-b-2 border-[#13F3A7] pb-[2px]'>
+                <Link to="/Contact" className='font-In text-[#9A9393] lg:text-lg md:text-base sm:text-sm text-xs font-normal transition-all duration-300 hover:text-[#13F3A7] hover:font-bold hover:border-b-2 border-[#13F3A7] pb-[2px]'>
                   Contact
                 </Link>
               </li>

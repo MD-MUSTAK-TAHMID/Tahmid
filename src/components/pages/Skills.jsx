@@ -11,7 +11,7 @@ const Skills = () => {
     let percentage2 = 70;
   return (
     <div>
-        <Container>
+        <Container className='pb-[100px]'>
             <Tittle text="Skills"/>
             <div className="flex flex-wrap gap-y-[70px] gap-x-[130px] max-w-[1026px] mx-auto">
                 <Progressbar_HTML text="HTML" persent={60}/>

@@ -7,7 +7,7 @@ import { FaDownload } from 'react-icons/fa'
 const About = () => {
   return (
     <div>
-        <Container className="lg:px-0 px-3">
+        <Container className="lg:px-0 px-3 pb-[100px]">
             <Tittle text="About Me"/>
             <h6 className='font-In text-[#FFFFFF] lg:text-[32px] md:text-2xl sm:text-xl text-lg lg:pb-[36px] md:pb-7 sm:pb-5 pb-3'>
                 Personal Info
