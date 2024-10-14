@@ -17,7 +17,7 @@ function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className={`${className} border-[3px] border-[#0FE1C2] text-3xl text-[#0FE1C2] hover:text-white w-[64px] h-[64px] absolute lg:right-5 md:right-3 sm:right-2 right-1 top-1/2 translate-y-[-50%] rounded-full bg-white hover:bg-[#0FE1C2] transition-all duration-300 cursor-pointer !flex justify-center items-center`}
+      className={`${className} border-[3px] border-[#0FE1C2] text-3xl text-[#0FE1C2] hover:text-white w-[64px] h-[64px] absolute lg:right-[-30px] md:right-[-20px] sm:right-[-10px] right-0 top-1/2 translate-y-[-50%] rounded-full bg-white hover:bg-[#0FE1C2] transition-all duration-300 cursor-pointer !flex justify-center items-center`}
       onClick={onClick}
     >
       <HiChevronRight/>
@@ -28,7 +28,7 @@ function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className={`${className} border-[3px] border-[#0FE1C2]  text-3xl text-[#0FE1C2] hover:text-white w-[64px] h-[64px] absolute lg:left-5 md:lrft-3 sm:left-2 left-1 top-1/2 translate-y-[-50%] rounded-full bg-white hover:bg-[#0FE1C2] transition-all duration-300 cursor-pointer !flex justify-center items-center`}
+      className={`${className} border-[3px] border-[#0FE1C2] z-10 text-3xl text-[#0FE1C2] hover:text-white w-[64px] h-[64px] absolute lg:left-[-30px] md:left-[-20px] sm:left-[-10px] left-0 top-1/2 translate-y-[-50%] rounded-full bg-white hover:bg-[#0FE1C2] transition-all duration-300 cursor-pointer !flex justify-center items-center`}
       onClick={onClick}
     >
       <HiChevronLeft />
