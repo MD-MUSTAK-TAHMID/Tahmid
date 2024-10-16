@@ -54,7 +54,7 @@ const Projects = () => {
     <div>
         <Container className="pb-[100px]">
         <Tittle text="My Projects" />
-        <div className="relative">
+        <div className="relative" data-aos="flip-right"   data-aos-duration="2000">
         <div className="slider-container relative">
       <Slider {...settings}>
         <div className='relative'>

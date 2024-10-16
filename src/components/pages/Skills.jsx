@@ -13,7 +13,7 @@ const Skills = () => {
     <div>
         <Container className='pb-[100px]'>
             <Tittle text="Skills"/>
-            <div className="flex flex-wrap gap-y-[70px] gap-x-[130px] max-w-[1026px] mx-auto">
+            <div className="flex flex-wrap gap-y-[70px] gap-x-[130px] max-w-[1026px] mx-auto" data-aos="fade-down-right"   data-aos-duration="2000">
                 <Progressbar_HTML text="HTML" persent={60}/>
                 <Progressbar_HTML text="CSS" persent={60}/>
                 <Progressbar text="Java Script" persent={60}/>

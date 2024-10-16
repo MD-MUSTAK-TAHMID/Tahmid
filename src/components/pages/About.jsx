@@ -13,7 +13,7 @@ const About = () => {
                 Personal Info
             </h6>
            <div className="flex lg:gap-y-6 md:gap-y-5 sm:gap-y-4 gap-y-3 flex-wrap md:flex-nowrap lg:gap-x-[54px] sm::gap-x-[35px] gap-x-[30px] md:gap-x-[40px] ">
-           <div className="flex flex-col lg:gap-y-6 md:gap-y-5 sm:gap-y-4 gap-y-3">
+           <div className="flex flex-col lg:gap-y-6 md:gap-y-5 sm:gap-y-4 gap-y-3" data-aos="zoom-in"   data-aos-duration="2000">
                 <div className="flex lg:gap-x-8 md:gap-x-7 sm:gap-x-6 gap-x-5 text-[#FFFFFF] lg:text-[20px] md:text-lg sm:text-base text-sm">
                     <div className="lg:w-[155px] md:w-[120px] sm:w-24 w-[85px] flex justify-between items-center ">
                         <p>First name</p><p>:</p>
@@ -39,7 +39,7 @@ const About = () => {
                     <p>+8801553447450</p>
                 </div>
             </div>
-            <div className="flex flex-col lg:gap-y-6 md:gap-y-5 sm:gap-y-4 gap-y-3">
+            <div className="flex flex-col lg:gap-y-6 md:gap-y-5 sm:gap-y-4 gap-y-3" data-aos="zoom-in"   data-aos-duration="2000">
                 <div className="flex lg:gap-x-8 md:gap-x-7 sm:gap-x-6 gap-x-5 text-[#FFFFFF] lg:text-[20px] md:text-lg sm:text-base text-sm">
                     <div className="lg:w-[155px] md:w-[120px] sm:w-24 w-[85px] flex justify-between items-center ">
                         <p>Last name</p><p>:</p>
@@ -58,14 +58,14 @@ const About = () => {
                     </div>
                     <p>New Market, Dhaka, Bangladesh</p>
                 </div>
-                <div className="flex lg:gap-x-8 md:gap-x-7 sm:gap-x-6 gap-x-5 text-[#FFFFFF] lg:text-[20px] md:text-lg sm:text-base text-sm">
+                <div className="flex lg:gap-x-8 md:gap-x-7 sm:gap-x-6 gap-x-5 text-[#FFFFFF] lg:text-[20px] md:text-lg sm:text-base text-sm" >
                     <div className="lg:w-[155px] md:w-[120px] sm:w-24 w-[85px] flex justify-between items-center ">
                         <p>Email</p><p>:</p>
                     </div>
                     <p>md.mustak.tahmid08@gmail.com</p>
                 </div>
             </div>
-            <div className="">
+            <div className="" data-aos="fade-left"   data-aos-duration="2000">
                 <p className='max-w-[427px] text-base text-white'>Dive into my portfolio and explore the fusion of creativity and technology. Whether it's coding in Python, crafting web solutions, or pushing the boundaries of hardware and robotics — every line of code tells a story.</p>
                 <Buttun to="https://www.canva.com/design/DAGPQVLkfjk/OfAv72u4Csc4j5XKorAkQg/view?utm_content=DAGPQVLkfjk&utm_campaign=designshare&utm_medium=link&utm_source=editor" className="group lg:text-[20px] lg:px-[17px] md:px-3 sm:px-2 px-1 lg:py-2 md:py-2 sm:py-1 py-1 md:rounded-[30px] rounded-2xl mt-7" text={<p className='flex items-center gap-5'>DOWNLOAD CV <div className="w-9 h-9 rounded-full border-2 border-[#0FE1C2] flex items-center justify-center group-hover:border-white text-sm transition-all duration-300 bg-[#0FE1C2]"><FaDownload /></div></p>}></Buttun>
             </div>

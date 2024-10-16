@@ -18,7 +18,7 @@ const Contact = () => {
         <div>
           <Tittle text="Contact" />
           <div className="flex flex-col md:flex-row justify-between">
-            <div className="contact flex flex-col gap-8 justify-center w-full md:w-[425px]">
+            <div className="contact flex flex-col gap-8 justify-center w-full md:w-[425px]" data-aos="fade-right"   data-aos-duration="2000">
               <Input placeholder="Name :" />
               <Input placeholder="Email :" />
               <textarea
@@ -27,7 +27,7 @@ const Contact = () => {
               ></textarea>
               <Buttun className="w-[152px] mx-auto" text="Send" />
             </div>
-            <div className="flex flex-col mt-8 md:mt-0">
+            <div className="flex flex-col mt-8 md:mt-0" data-aos="fade-left"   data-aos-duration="2000">
               <h4 className="text-[32px] font-bold text-white">DON'T BE SHY</h4>
               <p className="text-white text-xl w-full md:w-[510px] py-[27px]">
                 Feel free to reach out if you have any questions, collaboration opportunities, or just want to connect. I'm always open to new projects and discussions.

@@ -64,7 +64,8 @@ const Certificates = () => {
       <Container className="pb-[100px]">
         <Tittle text="My Certificates" />
         {/* Slider Container */}
-        <Slider {...settings} className="mt-10">
+       <div className="" data-aos="zoom-in-up"   data-aos-duration="2000">
+       <Slider {...settings} className="mt-10" >
           <div className="px-7 pb-7">
             <img src={Certificates1} alt="Certificate 1" className="w-full h-auto" />
           </div>
@@ -78,6 +79,7 @@ const Certificates = () => {
             <img src={Certificates1} alt="Certificate 1" className="w-full h-auto" />
           </div>
         </Slider>
+       </div>
       </Container>
     </div>
   );
