@@ -48,7 +48,7 @@ const Navber = () => {
         </div>
 
         {/* Navigation Menu */}
-        <ul className={`lg:flex lg:flex-nowrap flex-wrap lg:static absolute left-0 lg:bg-transparent bg-[#333333] w-full lg:w-auto top-[115%] lg:top-0 px-3 py-3 lg:py-0 justify-center items-center space-y-4 lg:space-y-0 space-x-0 lg:space-x-8 transition-all  duration-500 ease-in-out ${show ? 'block mb-5' : 'hidden'}`} data-aos="fade-left"   data-aos-duration="500">
+        <ul className={`lg:flex lg:flex-nowrap flex-wrap lg:static absolute left-0 lg:bg-transparent bg-[#333333] w-full lg:w-auto top-[115%] lg:top-0 px-3 py-3 lg:py-0 justify-center items-center space-y-4 lg:space-y-0 space-x-0 lg:space-x-8 transition-all  duration-500 ease-in-out ${show ? 'block mb-5' : 'hidden'}`} >
           <li>
             <Link to="/" className="text-[#f0f0f0] lg:text-lg text-base font-medium transition-all duration-300 hover:text-[#13F3A7] hover:font-bold hover:border-b-2 border-[#13F3A7] pb-[2px]">
               Home
